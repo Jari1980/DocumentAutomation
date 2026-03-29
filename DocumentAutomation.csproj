@@ -8,7 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Templates\BaseShoppingList.ott" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Templates\BaseShoppingList.ott">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+	  <None Include="Templates\BaseShoppingList.ott">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Output\" />
   </ItemGroup>
 
 </Project>
