@@ -1,0 +1,42 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.opendb
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+*.nuspec
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Generated Word documents / outputs
+Output/
+.DocumentAutomation/
+
+# Copilot / VS code analysis files
+*.vsidx
+*.db
+*.backup.json
+*.metadata.v10.bin
+*.projects.v10.bin
+*.strings.v10.bin
